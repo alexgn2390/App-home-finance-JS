@@ -1,0 +1,29 @@
+<section class="create_category_filter">
+    <h1 class="title category-title">Создание дохода/расхода</h1>
+    <ul class="ul">
+        <li class="li_block">
+            <div class="div_select">
+                <button class="btncategory" id="selected-button">Тип...</button>
+                <ul class="ul-content">
+                    <li id="li-income">Доходы</li>
+                    <li id="li-expense">Расходы</li>
+                </ul>
+            </div>
+        </li>
+        <li class="li_block">
+            <div class="div_select">
+                <button class="btncategory" id="category-option">Категории...</button>
+                <ul class="ul-content" id="category-options">
+                    <li></li>
+                </ul>
+            </div>
+        </li>
+    </ul>
+    <input class="category-input category-input-margin" type="number" placeholder="Сумма в $..." id="balance">
+    <input class="category-input category-input-margin" type="date" placeholder="Дата..." id="date">
+    <input class="category-input" type="text" placeholder="Комментарий..." id="comment">
+    <div class="create_category_filter-actions">
+        <button class="button button_green" id="create_category_filter">Создать</button>
+        <button class="button button_red">Отмена</button>
+    </div>
+</section>
